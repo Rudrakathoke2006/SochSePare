@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&amp;family=JetBrains+Mono:wght@400;500;600&amp;family=Manrope:wght@500;600;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"inverse-on-surface":"#2e3036","on-tertiary-fixed-variant":"#753400","on-error-container":"#ffdad6","on-primary-fixed":"#1b1c1a","secondary-fixed":"#cee6fa","error-container":"#93000a","on-secondary-fixed-variant":"#334959","on-background":"#e1e2e9","on-tertiary-fixed":"#321200","on-primary":"#30312e","on-secondary-fixed":"#041e2c","on-tertiary":"#532200","error":"#ffb4ab","on-surface":"#e1e2e9","on-tertiary-container":"#a14c0a","surface-dim":"#101418","tertiary-fixed":"#ffdbc9","on-surface-variant":"#c5c7c1","outline":"#8f918c","primary":"#ffffff","secondary":"#b2cadd","on-error":"#690005","outline-variant":"#454843","background":"#101418","surface-container-highest":"#32353a","surface-bright":"#36393f","primary-container":"#e3e2df","tertiary":"#ffffff","surface-variant":"#32353a","tertiary-container":"#ffdbc9","tertiary-fixed-dim":"#ffb68c","secondary-fixed-dim":"#b2cadd","inverse-surface":"#e1e2e9","primary-fixed-dim":"#c7c6c3","surface-container":"#1d2025","surface-container-high":"#272a2f","secondary-container":"#354c5c","surface-tint":"#c7c6c3","surface-container-lowest":"#0b0e13","on-secondary-container":"#a4bbcf","on-primary-container":"#646562","on-primary-fixed-variant":"#464744","surface":"#101418","primary-fixed":"#e3e2df","surface-container-low":"#191c21","on-secondary":"#1c3342","inverse-primary":"#5e5f5c"},borderRadius:{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},spacing:{"margin-mobile":"1rem","space-lg":"1.5rem","gutter-mobile":"0.75rem","space-xs":"0.25rem","space-xl":"2.5rem","space-md":"1rem","space-sm":"0.5rem","margin":"2rem","gutter":"1.25rem"},fontFamily:{"body-sm":["Geist"],"label-meta":["JetBrains Mono"],"display-hero":["Manrope"],"body-lg":["Geist"],"headline-sm":["Manrope"],"display-hero-mobile":["Manrope"],"code-analytical":["JetBrains Mono"],"headline-md":["Manrope"],"body-md":["Geist"],"headline-lg":["Manrope"],"label-badge":["JetBrains Mono"],"headline-lg-mobile":["Manrope"]},fontSize:{"body-sm":["12px",{"lineHeight":"18px","letterSpacing":"0.005em","fontWeight":"400"}],"label-meta":["10px",{"lineHeight":"14px","letterSpacing":"0.04em","fontWeight":"400"}],"display-hero":["48px",{"lineHeight":"56px","letterSpacing":"-0.03em","fontWeight":"700"}],"body-lg":["16px",{"lineHeight":"26px","letterSpacing":"-0.05em","fontWeight":"400"}],"headline-sm":["18px",{"lineHeight":"26px","letterSpacing":"-0.01em","fontWeight":"600"}],"display-hero-mobile":["32px",{"lineHeight":"40px","letterSpacing":"-0.02em","fontWeight":"700"}],"code-analytical":["13px",{"lineHeight":"20px","letterSpacing":"-0.01em","fontWeight":"500"}],"headline-md":["24px",{"lineHeight":"32px","letterSpacing":"-0.015em","fontWeight":"600"}],"body-md":["14px",{"lineHeight":"22px","letterSpacing":"0em","fontWeight":"400"}],"headline-lg":["32px",{"lineHeight":"40px","letterSpacing":"-0.02em","fontWeight":"600"}],"label-badge":["11px",{"lineHeight":"14px","letterSpacing":"0.06em","fontWeight":"600"}],"headline-lg-mobile":["24px",{"lineHeight":"32px","letterSpacing":"-0.01em","fontWeight":"600"}]}}}}</script></head><body class="bg-surface font-body-md text-on-surface antialiased selection:bg-secondary-container selection:text-on-secondary-container"><header class="fixed top-0 left-0 right-0 z-50 bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.3)]"><div class="h-16 w-full px-space-xl flex items-center justify-between gap-space-lg"><div class="flex items-center gap-space-lg shrink-0"><div class="flex items-center gap-space-sm"><img alt="BlindSpot AI Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1XXd1_istl31dsCGE6t_oAuRNi6lHMEKCi2u9sJOmqTlzaCE8UFG3s1IcLCkLE4etfYLDHzAfTuoLZPUyBrFT26gZcIobadt1JR7upxyAXy-_RWZbT1Z-sUpxL2LS46unJMBTLQERGOn98DOapH-yf81Sor-zvQbYYTtVQBSbgeJ-sXqCmfih4biTw14CpDZ3HfZLJE5hfTXF-MFE_7U85-iyaF6DNMwkZEQMyZaNnF4FwcCGW8KwTBrQ"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary tracking-tight font-bold">BLINDSPOT<span class="text-secondary font-code-analytical text-code-analytical font-semibold ml-1">AI</span></span><span class="font-label-meta text-label-meta text-on-surface-variant uppercase tracking-wider">Decision Reasoning Auditor</span></div></div><nav class="hidden lg:flex items-center gap-space-lg h-16 ml-space-md" data-active-classes="text-primary border-b-2 border-primary"><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors flex items-center h-full px-space-xs" data-path="reasoning-auditor" href="#">Reasoning Auditor</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors flex items-center h-full px-space-xs" data-path="interactive-demo-results" href="#">Interactive Demo &amp; Results</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors flex items-center h-full px-space-xs" data-path="architecture-prompt-spec" href="#">Architecture &amp; Prompt Spec</a></nav></div><div class="flex items-center gap-space-md shrink-0"><div class="hidden xl:flex items-center gap-space-xs px-space-sm py-1 rounded bg-surface-container-high"><span class="font-label-meta text-label-meta text-on-surface-variant uppercase">ENGINE:</span><span class="font-code-analytical text-code-analytical text-secondary">Gemini 1.5 Pro / Flash</span></div><div class="flex items-center gap-space-xs px-space-sm py-1 rounded bg-surface-container-low shadow-[0_0_12px_rgba(255,219,201,0.08)]"><span class="relative flex h-2 w-2"><span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-tertiary-fixed-dim opacity-75"></span><span class="relative inline-flex rounded-full h-2 w-2 bg-tertiary-fixed-dim"></span></span><span class="font-label-badge text-label-badge text-tertiary-fixed-dim uppercase tracking-wider font-semibold">GUARDRAIL ACTIVE: STRICT NO-VERDICT POLICY</span></div><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-16 bg-surface min-h-[calc(100vh-80px)]"><div class="flex flex-col w-full">
+<!-- Sub-header Breadcrumb & Telemetry Banner -->
+<div class="w-full bg-surface-container-lowest px-space-xl py-space-sm flex flex-wrap items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-sm flex-wrap">
+<span class="font-label-meta text-label-meta text-on-surface-variant uppercase tracking-wider">AUDIT ID //</span>
+<span class="font-code-analytical text-code-analytical text-secondary">#AUD-2025-0894X</span>
+<span class="text-surface-container-highest">/</span>
+<span class="font-label-badge text-label-badge text-tertiary-fixed-dim bg-surface-container-high px-space-xs py-0.5 rounded">CASE: CAREER TRAJECTORY</span>
+<span class="text-surface-container-highest">/</span>
+<span class="font-body-sm text-body-sm text-on-surface font-medium">Accept Internship vs Focus on Placements</span>
+</div>
+<div class="flex items-center gap-space-lg font-code-analytical text-code-analytical">
+<div class="flex items-center gap-space-xs">
+<span class="text-on-surface-variant">LEANING:</span>
+<span class="text-primary font-semibold">Accept Internship (75%)</span>
+</div>
+<div class="flex items-center gap-space-xs bg-surface-container-high px-space-sm py-1 rounded">
+<span class="material-symbols-outlined text-[14px] text-primary">verified_user</span>
+<span class="font-label-badge text-label-badge text-primary uppercase">verdict_given: false</span>
+<span class="font-label-meta text-label-meta text-secondary">[COMPLIANT]</span>
+</div>
+</div>
+</div>
+<div class="w-full px-space-xl py-space-lg flex flex-col gap-space-xl">
+<!-- Top KPI Grid & Epistemic Visibility Metric Bar -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg">
+<!-- 7 Cols: Telemetry Split Bar + High-Level Breakdown -->
+<div class="lg:col-span-7 bg-surface-container-low p-space-lg rounded-xl flex flex-col justify-between gap-space-lg shadow-sm">
+<div class="flex items-start justify-between gap-space-md">
+<div class="flex flex-col">
+<div class="flex items-center gap-space-xs mb-1">
+<span class="font-label-meta text-label-meta text-secondary uppercase tracking-widest">METRIC // VISIBILITY BALANCE</span>
+<span class="font-label-meta text-label-meta text-on-surface-variant">(12 CLAIMS ANALYZED)</span>
+</div>
+<h2 class="font-headline-md text-headline-md text-primary tracking-tight">Epistemic Coverage Index</h2>
+</div>
+<div class="text-right">
+<span class="font-code-analytical text-code-analytical text-tertiary-fixed-dim bg-surface-container-highest px-space-sm py-1 rounded">DEVIATION: HIGH BIAS</span>
+</div>
+</div>
+<div class="flex flex-col gap-space-sm">
+<!-- Split Progress Bar -->
+<div class="h-4 w-full bg-surface-container-highest rounded-full overflow-hidden flex">
+<div class="h-full bg-surface-tint flex items-center justify-end pr-2 transition-all duration-700" style="width: 58%">
+<span class="font-label-meta text-label-meta text-inverse-on-surface font-bold">58%</span>
+</div>
+<div class="h-full bg-tertiary-container flex items-center pl-2 transition-all duration-700" style="width: 42%">
+<span class="font-label-meta text-label-meta text-on-tertiary-container font-bold">42%</span>
+</div>
+</div>
+<div class="flex items-center justify-between text-on-surface font-body-sm text-body-sm">
+<div class="flex items-center gap-space-xs">
+<span class="w-2.5 h-2.5 rounded-full bg-surface-tint inline-block"></span>
+<span class="font-medium">58% Stated &amp; Verified Grounds</span>
+<span class="font-code-analytical text-code-analytical text-on-surface-variant">(7 Direct Nodes)</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<span class="w-2.5 h-2.5 rounded-full bg-tertiary-fixed-dim inline-block"></span>
+<span class="font-medium text-tertiary-fixed-dim">42% Hidden Blindspots &amp; Assumptions</span>
+<span class="font-code-analytical text-code-analytical text-on-surface-variant">(5 Unstated Gaps)</span>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-3 gap-space-md pt-space-xs">
+<div class="bg-surface-container p-space-sm rounded">
+<span class="font-label-meta text-label-meta text-on-surface-variant uppercase">Critical Gaps</span>
+<div class="font-headline-sm text-headline-sm text-primary font-bold">3 High</div>
+</div>
+<div class="bg-surface-container p-space-sm rounded">
+<span class="font-label-meta text-label-meta text-on-surface-variant uppercase">Internal Tensions</span>
+<div class="font-headline-sm text-headline-sm text-secondary font-bold">2 Polarities</div>
+</div>
+<div class="bg-surface-container p-space-sm rounded">
+<span class="font-label-meta text-label-meta text-on-surface-variant uppercase">Stated Premise Durability</span>
+<div class="font-headline-sm text-headline-sm text-on-surface font-bold">Low (Fragile)</div>
+</div>
+</div>
+</div>
+<!-- 5 Cols: Quick Insight & Guardrail Notice Card -->
+<div class="lg:col-span-5 bg-surface-container-low p-space-lg rounded-xl flex flex-col justify-between shadow-sm relative overflow-hidden">
+<div class="absolute -right-8 -top-8 w-32 h-32 bg-secondary-container/20 rounded-full blur-2xl pointer-events-none"></div>
+<div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-label-badge text-label-badge text-secondary uppercase tracking-wider">REASONING AUDITOR NOTICE</span>
+<span class="material-symbols-outlined text-secondary text-[20px]">psychology_alt</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-space-xs">Epistemic Mirror, Not an Oracle</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            BlindSpot AI evaluates the architecture of your thoughts. It does not provide opinions or select a path. We identify unverified premises, silent compromises, and asymmetrical weighting so you can decide with absolute clarity.
+          </p>
+</div>
+<div class="flex items-center gap-space-md p-space-sm bg-surface-container rounded mt-space-md">
+<span class="material-symbols-outlined text-primary text-[22px]">balance</span>
+<div class="flex flex-col">
+<span class="font-label-badge text-label-badge text-on-surface">ZERO-PRESCRIPTION MANDATE ACTIVE</span>
+<span class="font-label-meta text-label-meta text-on-surface-variant">Deterministic logic checks applied. 0 advisory tokens generated.</span>
+</div>
+</div>
+</div>
+</div>
+<!-- BLIND-SPOT MAP: Visual Logic Graph -->
+<div class="bg-surface-container-low p-space-lg rounded-xl flex flex-col gap-space-md shadow-sm">
+<div class="flex items-center justify-between flex-wrap gap-space-sm">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[22px]">account_tree</span>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold">Blind-Spot Map &amp; Deconstructed Logic Graph</h3>
+<span class="font-label-meta text-label-meta text-on-surface-variant uppercase tracking-wider">ORTHOGONAL TOPOLOGY // DIVERGENCE BETWEEN STATED GROUNDS VS UNCHECKED VARIABLES</span>
+</div>
+</div>
+<div class="flex items-center gap-space-sm">
+<span class="font-label-badge text-label-badge bg-surface-container-high text-on-surface px-space-xs py-1 rounded">INTERACTIVE NODES (4 CLUSTERS)</span>
+</div>
+</div>
+<!-- Graph Canvas Container -->
+<div class="w-full bg-surface-container-lowest rounded-lg p-space-lg overflow-x-auto relative">
+<div class="min-w-[900px] flex items-center justify-between relative py-space-sm">
+<!-- Root Decision Node -->
+<div class="flex flex-col items-center z-10 w-64">
+<div class="bg-surface-container-high p-space-md rounded-xl w-full shadow-md text-center">
+<span class="font-label-meta text-label-meta text-on-surface-variant uppercase block mb-1">DECISION APEX</span>
+<span class="font-headline-sm text-headline-sm text-primary font-bold block mb-1">Internship vs Prep</span>
+<span class="font-code-analytical text-code-analytical text-tertiary-fixed-dim bg-surface-container-lowest px-space-xs py-0.5 rounded text-[11px]">Primary Dilemma</span>
+</div>
+</div>
+<!-- Mid Connectors SVG -->
+<div class="flex-1 flex flex-col justify-center px-space-md relative h-72">
+<svg class="w-full h-full absolute inset-0 pointer-events-none" preserveaspectratio="none" viewbox="0 0 400 240">
+<!-- Top Branch to Stated (Solid) -->
+<path d="M 0 120 C 120 120, 160 50, 400 50" fill="none" stroke="#354c5c" stroke-dasharray="none" stroke-width="2.5"></path>
+<!-- Bottom Branch to Overlooked (Dashed Highlighting Gap) -->
+<path d="M 0 120 C 120 120, 160 190, 400 190" fill="none" stroke="#ffb68c" stroke-dasharray="6,4" stroke-width="2"></path>
+</svg>
+<div class="absolute top-6 left-1/3 bg-surface-container-low px-space-xs py-0.5 rounded font-label-meta text-label-meta text-secondary uppercase shadow-sm">
+              Visible Arguments (3)
+            </div>
+<div class="absolute bottom-6 left-1/3 bg-surface-container-low px-space-xs py-0.5 rounded font-label-meta text-label-meta text-tertiary-fixed-dim uppercase shadow-sm">
+              Cognitive Blindspots (4)
+            </div>
+</div>
+<!-- Divergent Endpoint Leaves Grid -->
+<div class="flex flex-col gap-space-lg z-10 w-[420px]">
+<!-- STATED/KNOWN NODES (Top Set) -->
+<div class="flex flex-col gap-space-xs bg-surface-container-low/70 p-space-sm rounded-xl">
+<div class="flex items-center justify-between mb-1">
+<span class="font-label-badge text-label-badge text-secondary uppercase tracking-widest flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+                  Stated / Known Grounding
+                </span>
+<span class="font-label-meta text-label-meta text-on-surface-variant">Empirical Weight: 58%</span>
+</div>
+<div class="grid grid-cols-3 gap-space-xs">
+<div class="bg-surface-container p-space-xs rounded text-center">
+<span class="font-code-analytical text-code-analytical text-primary block font-semibold">₹30,000</span>
+<span class="font-label-meta text-label-meta text-on-surface-variant uppercase">Monthly Cash</span>
+</div>
+<div class="bg-surface-container p-space-xs rounded text-center">
+<span class="font-code-analytical text-code-analytical text-primary block font-semibold">20 Min</span>
+<span class="font-label-meta text-label-meta text-on-surface-variant uppercase">Proximity</span>
+</div>
+<div class="bg-surface-container p-space-xs rounded text-center">
+<span class="font-code-analytical text-code-analytical text-primary block font-semibold">1 Line</span>
+<span class="font-label-meta text-label-meta text-on-surface-variant uppercase">Resume Badge</span>
+</div>
+</div>
+</div>
+<!-- OVERLOOKED / BLIND-SPOT NODES (Bottom Set) -->
+<div class="flex flex-col gap-space-xs bg-surface-container-low/90 p-space-sm rounded-xl shadow-md">
+<div class="flex items-center justify-between mb-1">
+<span class="font-label-badge text-label-badge text-tertiary-fixed-dim uppercase tracking-widest flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-tertiary-fixed-dim"></span>
+                  Overlooked Dependencies &amp; Risks
+                </span>
+<span class="font-label-meta text-label-meta text-tertiary-fixed-dim">Omission Weight: 42%</span>
+</div>
+<div class="grid grid-cols-2 gap-space-xs">
+<div class="bg-surface-container p-space-xs rounded flex flex-col justify-between">
+<span class="font-body-sm text-body-sm text-primary font-medium">Mentorship Ratio?</span>
+<span class="font-label-meta text-label-meta text-on-surface-variant">Unknown direct report</span>
+</div>
+<div class="bg-surface-container p-space-xs rounded flex flex-col justify-between">
+<span class="font-body-sm text-body-sm text-primary font-medium">Placement Prep Cost</span>
+<span class="font-label-meta text-label-meta text-on-surface-variant">40 hrs DSA deficit/wk</span>
+</div>
+<div class="bg-surface-container p-space-xs rounded flex flex-col justify-between">
+<span class="font-body-sm text-body-sm text-primary font-medium">Production Scope</span>
+<span class="font-label-meta text-label-meta text-on-surface-variant">Code vs CRUD chore</span>
+</div>
+<div class="bg-surface-container p-space-xs rounded flex flex-col justify-between">
+<span class="font-body-sm text-body-sm text-primary font-medium">Reversibility</span>
+<span class="font-label-meta text-label-meta text-on-surface-variant">High friction exit</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- MAIN TWO-COLUMN DECONSTRUCTION GRID -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-start">
+<!-- LEFT 7 COLS: Core Breakdown Categories (Assumptions & Conflicts) -->
+<div class="lg:col-span-7 flex flex-col gap-space-xl">
+<!-- SECTION 1: UNSTATED ASSUMPTIONS -->
+<div class="flex flex-col gap-space-md">
+<div class="flex items-center justify-between pb-space-xs">
+<div class="flex items-center gap-space-sm">
+<span class="flex h-3 w-3 rounded-full bg-error"></span>
+<h3 class="font-headline-sm text-headline-sm text-primary uppercase font-bold tracking-tight">1. Unstated Assumptions</h3>
+<span class="font-label-badge text-label-badge bg-error-container text-on-error-container px-space-xs py-0.5 rounded">2 IDENTIFIED</span>
+</div>
+<span class="font-label-meta text-label-meta text-on-surface-variant uppercase">EPISTEMIC RISK LEVEL: CRITICAL</span>
+</div>
+<!-- Card 1 -->
+<div class="bg-surface-container-low p-space-lg rounded-xl flex flex-col gap-space-md shadow-sm relative overflow-hidden">
+<div class="flex items-start justify-between gap-space-md flex-wrap">
+<div class="flex flex-col">
+<span class="font-label-meta text-label-meta text-error uppercase tracking-wider mb-1">ASSUMPTION // #01A • CORE ANCHOR</span>
+<h4 class="font-headline-sm text-headline-sm text-primary font-semibold">“Industry experience” is automatically career-accelerating</h4>
+</div>
+<div class="flex items-center gap-space-xs">
+<span class="font-label-badge text-label-badge bg-surface-container-high text-error px-space-xs py-1 rounded font-semibold">SEVERITY: HIGH</span>
+<span class="font-label-badge text-label-badge bg-surface-container-high text-secondary px-space-xs py-1 rounded font-semibold">CONFIDENCE: 94%</span>
+</div>
+</div>
+<!-- Traceability snippet -->
+<div class="bg-surface-container-lowest p-space-sm rounded-lg flex flex-col gap-space-xs">
+<span class="font-label-meta text-label-meta text-on-surface-variant uppercase tracking-wider flex items-center gap-1">
+<span class="material-symbols-outlined text-[13px] text-secondary">format_quote</span>
+                Traceability Quote From Your Reasoning Input:
+              </span>
+<p class="font-body-md text-body-md text-on-surface italic pl-space-sm">
+                “...having real work experience will help me get a much higher paying job during final year placements.”
+              </p>
+</div>
+<!-- Analytical Audit Deconstruction -->
+<div class="bg-surface-container p-space-md rounded-lg flex flex-col gap-space-xs">
+<span class="font-label-meta text-label-meta text-secondary uppercase font-semibold">Analytical Epistemic Audit:</span>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                Assumes any corporate exposure outweighs structured technical preparation, without validating whether daily assigned tasks involve production code review, architecture participation, or menial spreadsheet operations. Many campus recruiters prioritize DSA problem-solving benchmarks over unverified non-tier-1 tech internships.
+              </p>
+</div>
+<!-- Interactive Toggle Actions -->
+<div class="flex items-center justify-between pt-space-xs flex-wrap gap-space-sm">
+<div class="flex items-center gap-space-sm">
+<button class="bg-surface-container-high hover:bg-surface-bright text-on-surface font-body-sm text-body-sm px-space-md py-1.5 rounded transition-all flex items-center gap-1" onclick="this.classList.toggle('bg-primary'); this.classList.toggle('text-inverse-on-surface');" type="button">
+<span class="material-symbols-outlined text-[16px]">check</span>
+                  I've accounted for this
+                </button>
+<button class="bg-transparent hover:bg-surface-container-high text-on-surface-variant font-body-sm text-body-sm px-space-sm py-1.5 rounded transition-colors" type="button">
+                  Flag as irrelevant
+                </button>
+</div>
+<!-- Collapsible Explanation Trigger -->
+<details class="group cursor-pointer">
+<summary class="font-code-analytical text-code-analytical text-secondary hover:text-primary list-none flex items-center gap-1">
+<span>Why did AI flag this?</span>
+<span class="material-symbols-outlined text-[16px] group-open:rotate-180 transition-transform">expand_more</span>
+</summary>
+<div class="mt-space-sm p-space-sm bg-surface-container-lowest rounded text-body-sm font-body-sm text-on-surface-variant">
+<span class="text-tertiary-fixed-dim font-bold">Detection Reason:</span> User transcript used the generic token phrase “industry experience” 2 times without defining role hierarchy, mentor seniority, or pull-request requirements.
+                </div>
+</details>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="bg-surface-container-low p-space-lg rounded-xl flex flex-col gap-space-md shadow-sm">
+<div class="flex items-start justify-between gap-space-md flex-wrap">
+<div class="flex flex-col">
+<span class="font-label-meta text-label-meta text-error uppercase tracking-wider mb-1">ASSUMPTION // #01B • TIME EQUIVALENCE</span>
+<h4 class="font-headline-sm text-headline-sm text-primary font-semibold">“I will study placement algorithms in the evenings after 8-hour shifts”</h4>
+</div>
+<div class="flex items-center gap-space-xs">
+<span class="font-label-badge text-label-badge bg-surface-container-high text-error px-space-xs py-1 rounded font-semibold">SEVERITY: MEDIUM</span>
+<span class="font-label-badge text-label-badge bg-surface-container-high text-secondary px-space-xs py-1 rounded font-semibold">CONFIDENCE: 88%</span>
+</div>
+</div>
+<div class="bg-surface-container p-space-md rounded-lg flex flex-col gap-space-xs">
+<span class="font-label-meta text-label-meta text-secondary uppercase font-semibold">Analytical Epistemic Audit:</span>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                Assumes cognitive freshness remains identical post-commute and office problem-solving. Fails to account for context-switching friction between business workflows and LeetCode algorithmic proofs.
+              </p>
+</div>
+</div>
+</div>
+<!-- SECTION 2: INTERNAL CONFLICTS & TENSIONS -->
+<div class="flex flex-col gap-space-md">
+<div class="flex items-center justify-between pb-space-xs">
+<div class="flex items-center gap-space-sm">
+<span class="flex h-3 w-3 rounded-full bg-secondary"></span>
+<h3 class="font-headline-sm text-headline-sm text-primary uppercase font-bold tracking-tight">2. Internal Conflicts &amp; Tensions</h3>
+<span class="font-label-badge text-label-badge bg-secondary-container text-on-secondary-container px-space-xs py-0.5 rounded">HIGH SEVERITY</span>
+</div>
+<span class="font-label-meta text-label-meta text-on-surface-variant uppercase">POLARITY CHECK</span>
+</div>
+<div class="bg-surface-container-low p-space-lg rounded-xl flex flex-col gap-space-md shadow-sm">
+<div class="flex items-start justify-between gap-space-md">
+<div class="flex flex-col">
+<span class="font-label-meta text-label-meta text-secondary uppercase tracking-wider mb-1">TENSION MATRIX // LONG-TERM VS INSTANT GRATIFICATION</span>
+<h4 class="font-headline-sm text-headline-sm text-primary font-semibold">Stated Objective (Top Tier Placement) vs Decision Weight (Short-Term ₹30k Cash)</h4>
+</div>
+</div>
+<!-- Tension Comparison Split View -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md">
+<div class="bg-surface-container p-space-md rounded-lg flex flex-col gap-space-xs">
+<span class="font-label-meta text-label-meta text-on-surface-variant uppercase">Your Declared North Star</span>
+<span class="font-body-md text-body-md text-primary font-semibold">Land a ₹15LPA+ Top Placement Offer</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Requires 250+ solved high-level competitive coding problems and system design fundamentals before August.</p>
+</div>
+<div class="bg-surface-container p-space-md rounded-lg flex flex-col gap-space-xs">
+<span class="font-label-meta text-label-meta text-secondary uppercase">Your Deciding Factors</span>
+<span class="font-body-md text-body-md text-primary font-semibold">₹30k Stipend + 20-Minute Commute</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">2 of 3 listed justifications are immediate convenience parameters rather than alignment with long-term compensation.</p>
+</div>
+</div>
+<!-- The Epistemic Question Pivot -->
+<div class="p-space-md bg-surface-container-lowest rounded-lg flex items-start gap-space-md">
+<span class="material-symbols-outlined text-secondary text-[24px] shrink-0 mt-0.5">help_center</span>
+<div class="flex flex-col">
+<span class="font-label-badge text-label-badge text-secondary uppercase tracking-wider mb-1">AUDITOR THOUGHT EXPERIMENT</span>
+<p class="font-body-md text-body-md text-on-surface font-medium">
+                  “If the stipend was ₹0 and the company was remote, would you still take this role over dedicated DSA preparation? If the answer is No, you are deciding on cash flow, not career acceleration.”
+                </p>
+</div>
+</div>
+</div>
+</div>
+<!-- SECTION 3: OVERLOOKED FACTORS & HIDDEN COSTS -->
+<div class="flex flex-col gap-space-md">
+<div class="flex items-center justify-between pb-space-xs">
+<div class="flex items-center gap-space-sm">
+<span class="flex h-3 w-3 rounded-full bg-tertiary-fixed-dim"></span>
+<h3 class="font-headline-sm text-headline-sm text-primary uppercase font-bold tracking-tight">3. Overlooked Factors &amp; Hidden Costs</h3>
+</div>
+<span class="font-label-meta text-label-meta text-on-surface-variant uppercase">OMISSION MATRIX</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-md">
+<!-- Factor 1 -->
+<div class="bg-surface-container-low p-space-md rounded-xl flex flex-col justify-between gap-space-md shadow-sm">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between mb-1">
+<span class="material-symbols-outlined text-tertiary-fixed-dim text-[20px]">timer_off</span>
+<span class="font-label-meta text-label-meta text-error uppercase">40 HRS/WK</span>
+</div>
+<h5 class="font-headline-sm text-headline-sm text-primary font-semibold">DSA Opportunity Deficit</h5>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                  40 hours/week lost during prime algorithmic preparation window. Once placement drive begins, catch-up capacity is near zero.
+                </p>
+</div>
+<div class="bg-surface-container p-space-xs rounded font-label-meta text-label-meta text-on-surface-variant">
+                Category: Time Cost
+              </div>
+</div>
+<!-- Factor 2 -->
+<div class="bg-surface-container-low p-space-md rounded-xl flex flex-col justify-between gap-space-md shadow-sm">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between mb-1">
+<span class="material-symbols-outlined text-secondary text-[20px]">supervisor_account</span>
+<span class="font-label-meta text-label-meta text-secondary uppercase">UNVERIFIED</span>
+</div>
+<h5 class="font-headline-sm text-headline-sm text-primary font-semibold">Mentorship Quality</h5>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                  Have not confirmed whether you report to an active Staff Engineer or will be solo-building unreviewed code on deprecated frameworks.
+                </p>
+</div>
+<div class="bg-surface-container p-space-xs rounded font-label-meta text-label-meta text-on-surface-variant">
+                Category: Skill Multiplier
+              </div>
+</div>
+<!-- Factor 3 -->
+<div class="bg-surface-container-low p-space-md rounded-xl flex flex-col justify-between gap-space-md shadow-sm">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between mb-1">
+<span class="material-symbols-outlined text-primary text-[20px]">undo</span>
+<span class="font-label-meta text-label-meta text-primary uppercase">EXIT FRICTION</span>
+</div>
+<h5 class="font-headline-sm text-headline-sm text-primary font-semibold">Decision Reversibility</h5>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                  Can you resign cleanly after 3 weeks if the role offers no engineering depth, without burning bridges or forfeiting college credits?
+                </p>
+</div>
+<div class="bg-surface-container p-space-xs rounded font-label-meta text-label-meta text-on-surface-variant">
+                Category: Exit Strategy
+              </div>
+</div>
+</div>
+</div>
+</div>
+<!-- RIGHT 5 COLS: "What Would Change Your Mind" & Hero Reflection Loop -->
+<div class="lg:col-span-5 flex flex-col gap-space-xl">
+<!-- SECTION 4: WHAT WOULD CHANGE YOUR MIND? -->
+<div class="bg-surface-container-low p-space-lg rounded-xl flex flex-col gap-space-md shadow-sm">
+<div class="flex items-center justify-between pb-space-xs">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[20px]">swap_horizontal_circle</span>
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold">What Would Change Your Mind?</h3>
+</div>
+<span class="font-label-meta text-label-meta text-secondary uppercase">SENSITIVITY CHECKS</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            A resilient decision includes pre-committed falsification criteria. Mark the thresholds that would cause you to reject or abort this offer:
+          </p>
+<div class="flex flex-col gap-space-sm pt-space-xs">
+<label class="flex items-start gap-space-sm p-space-sm bg-surface-container hover:bg-surface-container-high rounded-lg cursor-pointer transition-colors">
+<input class="mt-1 h-4 w-4 rounded accent-primary bg-surface-container-highest cursor-pointer" type="checkbox"/>
+<span class="font-body-sm text-body-sm text-on-surface">If the company assigns maintenance &amp; manual data migration instead of production feature code</span>
+</label>
+<label class="flex items-start gap-space-sm p-space-sm bg-surface-container hover:bg-surface-container-high rounded-lg cursor-pointer transition-colors">
+<input class="mt-1 h-4 w-4 rounded accent-primary bg-surface-container-highest cursor-pointer" type="checkbox"/>
+<span class="font-body-sm text-body-sm text-on-surface">If university campus recruitment drive calendar moves up by 1 month earlier than expected</span>
+</label>
+<label class="flex items-start gap-space-sm p-space-sm bg-surface-container hover:bg-surface-container-high rounded-lg cursor-pointer transition-colors">
+<input checked="" class="mt-1 h-4 w-4 rounded accent-primary bg-surface-container-highest cursor-pointer" type="checkbox"/>
+<span class="font-body-sm text-body-sm text-on-surface">If former interns from this batch confirm they were not given full-time PPOs (Pre-Placement Offers)</span>
+</label>
+<label class="flex items-start gap-space-sm p-space-sm bg-surface-container hover:bg-surface-container-high rounded-lg cursor-pointer transition-colors">
+<input class="mt-1 h-4 w-4 rounded accent-primary bg-surface-container-highest cursor-pointer" type="checkbox"/>
+<span class="font-body-sm text-body-sm text-on-surface">If no dedicated 1-on-1 engineering mentor is formally designated by Day 1</span>
+</label>
+</div>
+</div>
+<!-- SECTION 5: HERO FEATURE - PROBING QUESTIONS & ROUND-2 REFLECTION INTERROGATOR -->
+<div class="bg-surface-container-low p-space-lg rounded-xl flex flex-col gap-space-md shadow-md relative overflow-hidden">
+<div class="flex items-center justify-between pb-space-xs">
+<div class="flex items-center gap-space-sm">
+<span class="flex h-2.5 w-2.5 rounded-full bg-secondary"></span>
+<span class="font-label-badge text-label-badge text-secondary uppercase tracking-widest">HERO FEATURE // ROUND-2 INTERROGATOR</span>
+</div>
+<span class="font-label-meta text-label-meta text-primary bg-surface-container-high px-space-xs py-0.5 rounded">REASONING AUDITOR ACTIVE</span>
+</div>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold">Want to go deeper? Challenge my reasoning</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+              Answer the auditor’s probing inquiries to stress-test your internal logic in real-time.
+            </p>
+</div>
+<!-- Interactive Probing Inquiries Accordion/List -->
+<div class="flex flex-col gap-space-md pt-space-xs">
+<!-- Question 1 -->
+<div class="bg-surface-container p-space-md rounded-lg flex flex-col gap-space-xs">
+<div class="flex items-center gap-space-xs">
+<span class="font-code-analytical text-code-analytical text-secondary font-bold">Q1 //</span>
+<span class="font-body-md text-body-md text-primary font-medium">If the ₹30,000 stipend were completely removed, would your decision change?</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant italic">
+                Tests if compensation is masking a lack of genuine technical skill progression.
+              </p>
+</div>
+<!-- Question 2 with Live Interactive Input -->
+<div class="bg-surface-container p-space-md rounded-lg flex flex-col gap-space-sm">
+<div class="flex items-center gap-space-xs">
+<span class="font-code-analytical text-code-analytical text-secondary font-bold">Q2 //</span>
+<span class="font-body-md text-body-md text-primary font-medium">What specific technical artifact or code repository must you ship to make this worthwhile?</span>
+</div>
+<!-- Interactive Textarea with mock value -->
+<div class="flex flex-col gap-space-xs">
+<textarea class="w-full bg-surface-container-lowest text-on-surface p-space-sm rounded font-body-sm text-body-sm focus:outline-none focus:ring-1 focus:ring-secondary resize-none" id="reflection-input" placeholder="Type your response to stress-test this angle..." rows="3">I want to work on actual microservices and learn Docker container orchestration from senior devs.</textarea>
+<div class="flex items-center justify-between text-on-surface-variant font-label-meta text-label-meta">
+<span>92 CHARACTERS / INPUT MASS: LIGHT</span>
+<button class="bg-primary hover:bg-primary-container text-on-primary font-body-sm text-body-sm px-space-md py-1 rounded transition-colors flex items-center gap-1 font-medium" id="submit-reflection-btn" type="button">
+<span class="material-symbols-outlined text-[14px]">bolt</span>
+                    Stress-Test Response
+                  </button>
+</div>
+</div>
+<!-- Dynamic AI Reaction Banner (Follow-up Deepened Audit) -->
+<div class="bg-surface-container-high p-space-md rounded-lg flex flex-col gap-space-xs mt-space-xs animate-fadeIn" id="ai-deep-reaction">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-secondary text-[16px]">neurology</span>
+<span class="font-label-badge text-label-badge text-secondary uppercase font-semibold">AI Deepened Audit Reaction</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface">
+                  “Your answer clarifies technical intent, but reveals <span class="text-tertiary-fixed-dim font-bold">Unstated Assumption #4</span>: you assume senior engineers at this startup have officially allocated bandwidth and willingness to mentor junior interns on architecture.”
+                </p>
+<div class="flex items-center gap-space-sm pt-space-xs font-label-meta text-label-meta text-on-surface-variant">
+<span>PREMISE INTEGRITY: 48%</span>
+<span>•</span>
+<span class="text-secondary cursor-pointer hover:underline">View suggested clarification email to founder →</span>
+</div>
+</div>
+</div>
+<!-- Question 3 -->
+<div class="bg-surface-container p-space-md rounded-lg flex flex-col gap-space-xs">
+<div class="flex items-center gap-space-xs">
+<span class="font-code-analytical text-code-analytical text-secondary font-bold">Q3 //</span>
+<span class="font-body-md text-body-md text-primary font-medium">If placement recruitment begins 30 days early, what is your fallback exit protocol?</span>
+</div>
+</div>
+</div>
+<!-- Bottom Guardrail Verification JSON Widget -->
+<div class="bg-surface-container-lowest p-space-sm rounded-lg flex flex-col gap-space-xs font-code-analytical text-code-analytical text-[11px]">
+<div class="flex items-center justify-between text-on-surface-variant border-b border-surface-container pb-1">
+<span class="uppercase">ENGINE_TELEMETRY // GUARDRAIL_INSPECTOR</span>
+<span class="text-primary font-semibold">PASS: ALL CHECKS CLEAN</span>
+</div>
+<pre class="text-secondary overflow-x-auto"><code>{
+  "verdict_given": false,
+  "recommendation_suppressed": true,
+  "reasoning_gaps_identified": 7,
+  "confidence_score": 0.94,
+  "epistemic_balance": "Skewed toward short-term proximity",
+  "guardrail_status": "Strict Non-Advisory Mode Compliant"
+}</code></pre>
+</div>
+</div>
+</div>
+</div>
+<!-- PERSISTENT FOOTER ACTION STRIP -->
+<div class="w-full bg-surface-container-low p-space-md rounded-xl flex flex-wrap items-center justify-between gap-space-md shadow-sm">
+<div class="flex items-center gap-space-md flex-wrap">
+<span class="font-body-md text-body-md text-on-surface font-semibold">Ready to test another scenario?</span>
+<span class="text-on-surface-variant font-body-sm text-body-sm">Export this audit brief to PDF, or clone into side-by-side branch comparison.</span>
+</div>
+<div class="flex items-center gap-space-sm">
+<button class="bg-surface-container-high hover:bg-surface-bright text-on-surface font-body-sm text-body-sm px-space-md py-2 rounded transition-colors flex items-center gap-space-xs font-medium" type="button">
+<span class="material-symbols-outlined text-[16px]">download</span>
+          Export Audit Brief (PDF)
+        </button>
+<button class="bg-primary hover:bg-primary-container text-on-primary font-body-sm text-body-sm px-space-md py-2 rounded transition-colors flex items-center gap-space-xs font-semibold" type="button">
+<span class="material-symbols-outlined text-[16px]">fork_right</span>
+          Create Scenario Branch
+        </button>
+</div>
+</div>
+</div>
+</div>
+<script>
+  // Simple micro-interaction for Round 2 Stress-Testing
+  const submitBtn = document.getElementById('submit-reflection-btn');
+  const reactionBanner = document.getElementById('ai-deep-reaction');
+  const reflectionInput = document.getElementById('reflection-input');
+
+  if (submitBtn && reactionBanner && reflectionInput) {
+    submitBtn.addEventListener('click', () => {
+      reactionBanner.style.opacity = '0.5';
+      submitBtn.innerText = 'Evaluating...';
+      setTimeout(() => {
+        reactionBanner.style.opacity = '1';
+        submitBtn.innerHTML = '<span class="material-symbols-outlined text-[14px]">done</span> Evaluated';
+        setTimeout(() => {
+          submitBtn.innerHTML = '<span class="material-symbols-outlined text-[14px]">bolt</span> Stress-Test Response';
+        }, 2000);
+      }, 450);
+    });
+  }
+</script></main><footer class="w-full bg-surface-container-lowest py-space-lg"><div class="w-full px-space-xl flex flex-col md:flex-row items-center justify-between gap-space-md font-body-sm text-body-sm text-on-surface-variant"><div class="flex items-center gap-space-md"><span class="font-code-analytical text-code-analytical text-on-surface">BLINDSPOT ARCHITECTURE v2.4</span><span class="text-outline">|</span><span>Algorithmic Epistemic Deconstruction Platform</span></div><div class="flex items-center gap-space-lg font-code-analytical text-code-analytical"><span class="text-on-surface-variant">LATENCY: 142ms</span><span class="text-on-surface-variant">COVERAGE: 100% AUDIT</span><span class="text-on-surface">© 2025 BLINDSPOT AI</span></div></div></footer></body></html>
